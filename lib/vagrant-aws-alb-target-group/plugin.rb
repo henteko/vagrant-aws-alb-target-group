@@ -9,7 +9,7 @@ module VagrantPlugins
         A Vagrant plugin that allows you to setup ALB Target Group.
       DESC
 
-      config :aws do
+      config :aws_alb do
         require_relative 'config'
         Config
       end
