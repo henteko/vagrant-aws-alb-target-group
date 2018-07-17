@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    vagrant-aws-alb-target-group (0.1.0)
+    vagrant-aws-alb-target-group (0.1.2)
       aws-sdk (~> 2.6.44)
 
 GEM
