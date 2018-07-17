@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["henteko"]
   spec.email         = ["henteko07@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Setup AWS ALB Target Group}
+  spec.description   = %q{Setup AWS ALB Target Group}
+  spec.homepage      = "https://github.com/henteko/vagrant-aws-alb-target-group"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
