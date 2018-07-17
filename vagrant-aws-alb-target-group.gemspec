@@ -1,10 +1,10 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "vagrant-aws-alb-group/version"
+require "vagrant-aws-alb-target-group/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "vagrant-aws-alb-group"
-  spec.version       = Vagrant::AwsAlbGroup::VERSION
+  spec.name          = "vagrant-aws-alb-target-group"
+  spec.version       = Vagrant::AwsAlbTargetGroup::VERSION
   spec.authors       = ["henteko"]
   spec.email         = ["henteko07@gmail.com"]
 
